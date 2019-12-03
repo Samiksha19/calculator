@@ -1,0 +1,84 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 25%;
+  margin-right: 25%;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.header {
+  height: 45;
+  padding: 5px;
+  width: '-webkit-fill-available';
+  background-image: linear-gradient(#6E00CD, #7301E6, #7301E6, #6E00CD); 
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  justify-content: 'center'
+}
+
+button {
+  padding: 5px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  min-height: 50px;
+  margin: 5px;
+  font-size: xx-large;
+  color: white;
+}
+
+.btn_style {
+  background-image: radial-gradient(#6E00CD, #7301E6, rgb(143, 89, 197));
+}
+
+input {
+  height: 30px;
+  width: 100%;
+  border-width: 0;
+  border-bottom-width: 0.5px;
+  border-bottom-color: #7301E6;
+  right: 20px;
+}
+
+.title {
+  color: gray;
+}
+
+.result {
+  display: flex;
+  flex-direction: row;
+  color: gray;
+  margin-top: 12px;
+  align-self: end;
+}
+
+h3.result_value{
+  margin-top: 15px;
+  margin-left: 15px;
+  color: black;
+}
+
+form {
+  align-self: end;
+}
+
+.operation_view {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: '25%'
+}
+
+.header_title {
+  color: white;
+  font-size: 18;
+  align-self: 'center';
+}
